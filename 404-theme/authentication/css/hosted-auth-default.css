@@ -1,4 +1,4 @@
-body {
+:root {
     --google-blue-600: rgb(26, 115, 232);
     --google-blue-700: rgb(25, 103, 210);
     --google-gray-50: rgb(248, 249, 250);
@@ -6,6 +6,10 @@ body {
     --google-gray-500: rgb(154, 160, 166);
     --google-gray-600: rgb(128, 134, 139);
     --google-gray-700: rgb(95, 99, 104);
+}
+body {
+
+    
     background-color: #fff;
     color: var(--google-gray-700);
     word-wrap: break-word;
@@ -69,10 +73,11 @@ button {
 	
 	}
 	
-	@media (min-height: 400px) and (orientation: portrait)
+	@media (min-height: 400px) and (orientation: portrait){
 .mainContent{
     margin-bottom: 145px;
 }
+    }
 	.error-code{
 	    display: block;
     font-size: .8em;
